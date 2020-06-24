@@ -234,6 +234,12 @@ timings
     - **default**: Unknown Server
     - **description**: Instructs timings on what to put in for the server name.
 
+unsupported-settings
+~~~~~~~~
+* allow-tnt-duplication
+        - **default**: false
+        - **description**: If set to true, will allow TNT dupers to function
+          
 World Settings
 ==============
 
@@ -781,3 +787,15 @@ squid-spawn-height
     - **description**: The maximum height at which squids will spawn.
     - **note**: The default value defers to Minecraft's default setting,
       which as of 1.12 is the sea-level of the world (usually Y: 64).
+
+Unsupported Settings
+==============
+
+This section has been created as a notable exception to house a toggle for 
+TNT duping behaviour which has been fixed as of build 350 for Paper 1.15.2
+It is hoped that no further exceptions will be added.
+
+allow-tnt-duplication
+~~~~~~~~~~~~~~~~~~~~~
+* **default**: false
+* **description**: If set to true, will allow TNT dupers to function
